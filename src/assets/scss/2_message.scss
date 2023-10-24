@@ -1,0 +1,41 @@
+.message {
+    padding: 50px 0;
+}
+.message__box {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+.message__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.message__leftInner{
+    background-color: #edefc0;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.message__txt {
+    line-height: 20px;
+}
+.message__txt2 {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+.message__name {
+    font-weight: 700;
+}
+.message__star {
+    font-size: 20px;
+}
+.message__right {
+}
+.message__title {
+    color: #1b65b1;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: clamp(22px, 5vw, 35px)
+}
